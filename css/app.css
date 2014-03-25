@@ -4734,198 +4734,166 @@ body {
   color: #333333;
   font-family: "Neue Helvetica W01", "Helvetica Neue", "Open Sans", Helvetica, Arial, sans-serif; }
 
-.page-florence .header-block .title, .page-florence .app-block .title, .page-florence .schedule-block .title, .page-florence .about-block .title,
-.page-florence .hiw-block .title, .page-florence .footer-block .title {
+.header-block .title, .app-block .title, .schedule-block .title, .about-block .title,
+.hiw-block .title, .footer-block .title {
   font-size: 3em;
   font-weight: 100;
   letter-spacing: 0.07em;
   line-height: 1.25em; }
   @media only screen and (max-width: 767px) {
-    .page-florence .header-block .title, .page-florence .app-block .title, .page-florence .schedule-block .title, .page-florence .about-block .title,
-    .page-florence .hiw-block .title, .page-florence .footer-block .title {
+    .header-block .title, .app-block .title, .schedule-block .title, .about-block .title,
+    .hiw-block .title, .footer-block .title {
       font-size: 1.5em;
       font-weight: 200;
       line-height: 1.67em; } }
 
-.page-florence .header-block .logo-wrapper, .page-florence .header-block .logo-description, .page-florence .header-block .small-block-wrapper .small-block, .page-florence .app-block .small-block-wrapper .small-block, .page-florence .schedule-block .event {
+.schedule-block .schedule-event .schedule-event-title {
+  font-size: 1.5em;
+  line-height: 1.25em; }
+  @media only screen and (max-width: 767px) {
+    .schedule-block .schedule-event .schedule-event-title {
+      font-size: 1.125em; } }
+
+.header-block .logo-wrapper, .header-block .logo-description, .header-block .small-block-wrapper .small-block, .app-block .small-block-wrapper .small-block, .schedule-block .event, .schedule-block .schedule-event .schedule-event-text {
   font-size: 1em;
   line-height: 1.875em;
   letter-spacing: 0.07em; }
   @media only screen and (max-width: 767px) {
-    .page-florence .header-block .logo-wrapper, .page-florence .header-block .logo-description, .page-florence .header-block .small-block-wrapper .small-block, .page-florence .app-block .small-block-wrapper .small-block, .page-florence .schedule-block .event {
+    .header-block .logo-wrapper, .header-block .logo-description, .header-block .small-block-wrapper .small-block, .app-block .small-block-wrapper .small-block, .schedule-block .event, .schedule-block .schedule-event .schedule-event-text {
       font-size: 0.8125em;
       line-height: 1.54em; } }
 
-.page-florence .header-block .logo-wrapper .logo {
+.header-block .logo-wrapper .logo {
   background-image: url("../images/logo.png");
   background-repeat: no-repeat;
-  background-size: 235px 55px; }
+  background-size: 215px 35px; }
   @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
-    .page-florence .header-block .logo-wrapper .logo {
+    .header-block .logo-wrapper .logo {
       background-image: url("../images/big/logo.png"); } }
 
-.page-florence .app-block .custom-button-wrapper.preview-button .custom-button:before {
+.app-block .custom-button-wrapper.preview-button .custom-button:before {
   background-image: url("../images/eye.png");
   background-repeat: no-repeat;
   background-size: 30px 60px; }
   @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
-    .page-florence .app-block .custom-button-wrapper.preview-button .custom-button:before {
+    .app-block .custom-button-wrapper.preview-button .custom-button:before {
       background-image: url("../images/big/eye.png"); } }
 
-.page-florence .app-block .custom-button-wrapper.app-button .custom-button:before {
+.app-block .custom-button-wrapper.app-button .custom-button:before {
   background-image: url("../images/phone.png");
   background-repeat: no-repeat;
   background-size: 30px 60px; }
   @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
-    .page-florence .app-block .custom-button-wrapper.app-button .custom-button:before {
+    .app-block .custom-button-wrapper.app-button .custom-button:before {
       background-image: url("../images/big/phone.png"); } }
 
-.page-florence .header-block .custom-button-wrapper.app-button .custom-button:before, .page-florence .header-block .custom-button-wrapper.preview-button .custom-button:before {
-  background-image: url("../images/play.png");
-  background-repeat: no-repeat;
-  background-size: 30px 60px; }
-  @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
-    .page-florence .header-block .custom-button-wrapper.app-button .custom-button:before, .page-florence .header-block .custom-button-wrapper.preview-button .custom-button:before {
-      background-image: url("../images/big/play.png"); } }
-
-.page-florence .header-block {
-  background-image: url("../images/florence1.jpg");
+.header-block-wrapper {
+  background-image: url("../images/background1.png");
   background-position: 50% 0;
   background-repeat: repeat-x;
   background-size: cover;
+  position: relative; }
+
+.header-block {
+  background-image: url("../images/hand.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
   height: 800px;
   position: relative; }
   @media only screen and (max-width: 767px) {
-    .page-florence .header-block {
+    .header-block {
+      background-image: none;
       height: 650px; } }
-  .page-florence .header-block .logo-wrapper {
+  @media (max-width: 1005px) {
+    .header-block {
+      background-position: 510px 100%; } }
+  @media (max-width: 980px) {
+    .header-block {
+      background-image: none; } }
+  .header-block .logo-wrapper {
     margin: 3.5em 0 0 0;
     padding: 0; }
     @media only screen and (max-width: 767px) {
-      .page-florence .header-block .logo-wrapper {
+      .header-block .logo-wrapper {
         margin-top: 2em; } }
-    .page-florence .header-block .logo-wrapper .logo {
+    .header-block .logo-wrapper .logo {
       background-position: 0 0;
       display: block;
-      height: 55px;
-      margin: -10px auto 0 auto;
+      height: 35px;
       overflow: hidden;
       text-indent: -9999px;
-      width: 235px; }
-  .page-florence .header-block .logo-description {
+      width: 215px; }
+      @media only screen and (max-width: 767px) {
+        .header-block .logo-wrapper .logo {
+          margin: 0 auto; } }
+  .header-block .logo-description {
     color: white;
     margin: 3em 0 0 0;
     text-decoration: bold; }
     @media only screen and (max-width: 767px) {
-      .page-florence .header-block .logo-description {
+      .header-block .logo-description {
         font-size: 0.8125em;
         line-height: 1.5em;
         margin-top: 2em;
         text-align: center; } }
-    .page-florence .header-block .logo-description .logo-description-text {
+    .header-block .logo-description .logo-description-text {
       font-size: 1.25em;
-      line-height: 1.25em;
-      text-shadow: 0 0px 5px #00719b; }
-  .page-florence .header-block .title {
+      line-height: 1.25em; }
+  .header-block .title {
     color: white;
     font-weight: bold;
     height: 3.75em;
-    margin-top: 160px;
-    text-align: center;
-    text-shadow: 0 0px 20px black; }
+    margin-top: 160px; }
     @media only screen and (max-width: 767px) {
-      .page-florence .header-block .title {
+      .header-block .title {
         height: 3.9em;
         line-height: 1.3em;
         margin-bottom: 0;
-        margin-top: 100px; } }
-  .page-florence .header-block .custom-button-wrapper .custom-button {
-    background: #00aeef;
-    border-radius: 25px;
-    color: white;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1.25em;
-    font-weight: 200;
-    letter-spacing: 0.07em;
-    line-height: 37px;
-    padding: 3px 20px 5px 10px;
-    text-align: left;
-    width: 230px; }
-    .page-florence .header-block .custom-button-wrapper .custom-button:before {
-      content: "";
-      display: inline-block;
-      margin-top: 4px;
-      vertical-align: top;
-      width: 45px; }
-  .page-florence .header-block .custom-button-wrapper.app-button {
-    text-align: right; }
-    .page-florence .header-block .custom-button-wrapper.app-button .custom-button:before {
-      background-position: 0 0;
-      height: 30px; }
-    .page-florence .header-block .custom-button-wrapper.app-button .custom-button:hover {
-      color: #333333; }
-      .page-florence .header-block .custom-button-wrapper.app-button .custom-button:hover:before {
-        background-position: 0 -30px; }
-  .page-florence .header-block .custom-button-wrapper.preview-button {
-    text-align: left; }
-    .page-florence .header-block .custom-button-wrapper.preview-button .custom-button:before {
-      background-position: 0 0;
-      height: 30px; }
-    .page-florence .header-block .custom-button-wrapper.preview-button .custom-button:hover {
-      color: #333333; }
-      .page-florence .header-block .custom-button-wrapper.preview-button .custom-button:hover:before {
-        background-position: 0 -30px; }
-  @media only screen and (max-width: 767px) {
-    .page-florence .header-block .custom-button-wrapper {
-      padding: 20px 0 0 0; }
-      .page-florence .header-block .custom-button-wrapper .custom-button {
-        font-size: 1.125em; }
-      .page-florence .header-block .custom-button-wrapper.app-button, .page-florence .header-block .custom-button-wrapper.preview-button {
+        margin-top: 100px;
         text-align: center; } }
-  .page-florence .header-block .small-block-wrapper {
+  .header-block .small-block-wrapper {
     bottom: 0;
     left: 0;
     position: absolute;
     right: 0;
     background-color: white;
-    background-color: rgba(255, 255, 255, 0.85); }
-    .page-florence .header-block .small-block-wrapper .small-block {
+    background-color: rgba(255, 255, 255, 0.7); }
+    .header-block .small-block-wrapper .small-block {
       border: none;
       line-height: 1.7em;
       padding: 1em 0;
       text-align: center; }
-      .page-florence .header-block .small-block-wrapper .small-block .nowrap {
+      .header-block .small-block-wrapper .small-block .nowrap {
         white-space: nowrap; }
     @media only screen and (max-width: 767px) {
-      .page-florence .header-block .small-block-wrapper .small-block {
-        padding: 0.5em 1em; } }
-.page-florence .app-block {
+      .header-block .small-block-wrapper .small-block {
+        padding: 0.5em 0; } }
+
+.app-block {
   background-color: #949494;
-  background-image: url("../images/florence2.jpg");
+  background-image: url("../images/background2.png");
   background-position: 50% 50%;
   background-repeat: repeat-x;
   background-size: cover;
   height: 800px;
   position: relative; }
   @media only screen and (max-width: 767px) {
-    .page-florence .app-block {
+    .app-block {
       background-position: 50% 0;
       height: 650px; } }
-  .page-florence .app-block .title {
+  .app-block .title {
     color: white;
     font-weight: bold;
     height: 3.75em;
     margin-top: 225px;
-    text-align: center;
-    text-shadow: 0 0px 6px rgba(0, 0, 0, 0.3); }
+    text-align: center; }
     @media only screen and (max-width: 767px) {
-      .page-florence .app-block .title {
+      .app-block .title {
         height: 3.9em;
         line-height: 1.3em;
         margin-bottom: 0;
         margin-top: 135px; } }
-  .page-florence .app-block .custom-button-wrapper .custom-button {
+  .app-block .custom-button-wrapper .custom-button {
     background: #00aeef;
     border-radius: 25px;
     color: white;
@@ -4937,143 +4905,151 @@ body {
     padding: 3px 20px 5px 10px;
     text-align: left;
     width: 250px; }
-    .page-florence .app-block .custom-button-wrapper .custom-button:before {
+    .app-block .custom-button-wrapper .custom-button:before {
       content: "";
       display: inline-block;
       margin-left: 3px;
       margin-top: 4px;
       vertical-align: top;
       width: 42px; }
-  .page-florence .app-block .custom-button-wrapper.app-button {
+  .app-block .custom-button-wrapper.app-button {
     text-align: right; }
-    .page-florence .app-block .custom-button-wrapper.app-button .custom-button:before {
+    .app-block .custom-button-wrapper.app-button .custom-button:before {
       background-position: 0 0;
       height: 30px; }
-    .page-florence .app-block .custom-button-wrapper.app-button .custom-button:hover {
+    .app-block .custom-button-wrapper.app-button .custom-button:hover {
       color: #333333; }
-      .page-florence .app-block .custom-button-wrapper.app-button .custom-button:hover:before {
+      .app-block .custom-button-wrapper.app-button .custom-button:hover:before {
         background-position: 0 -30px; }
-  .page-florence .app-block .custom-button-wrapper.preview-button {
+  .app-block .custom-button-wrapper.preview-button {
     text-align: left; }
-    .page-florence .app-block .custom-button-wrapper.preview-button .custom-button:before {
+    .app-block .custom-button-wrapper.preview-button .custom-button:before {
       background-position: 0 0;
       height: 30px; }
-    .page-florence .app-block .custom-button-wrapper.preview-button .custom-button:hover {
+    .app-block .custom-button-wrapper.preview-button .custom-button:hover {
       color: #333333; }
-      .page-florence .app-block .custom-button-wrapper.preview-button .custom-button:hover:before {
+      .app-block .custom-button-wrapper.preview-button .custom-button:hover:before {
         background-position: 0 -30px; }
   @media only screen and (max-width: 767px) {
-    .page-florence .app-block .custom-button-wrapper {
+    .app-block .custom-button-wrapper {
       padding: 20px 0 0 0; }
-      .page-florence .app-block .custom-button-wrapper .custom-button {
+      .app-block .custom-button-wrapper .custom-button {
         font-size: 1.125em; }
-      .page-florence .app-block .custom-button-wrapper.app-button, .page-florence .app-block .custom-button-wrapper.preview-button {
+      .app-block .custom-button-wrapper.app-button, .app-block .custom-button-wrapper.preview-button {
         text-align: center; } }
-  .page-florence .app-block .small-block-wrapper {
+  .app-block .small-block-wrapper {
     bottom: 0;
     left: 0;
     position: absolute;
     right: 0;
     background-color: white;
-    background-color: rgba(255, 255, 255, 0.85); }
-    .page-florence .app-block .small-block-wrapper .small-block {
+    background-color: rgba(255, 255, 255, 0.7); }
+    .app-block .small-block-wrapper .small-block {
       border: none;
       line-height: 1.7em;
       padding: 1em 0; }
     @media only screen and (max-width: 767px) {
-      .page-florence .app-block .small-block-wrapper .small-block {
-        padding: 0.5em 1em; } }
-.page-florence .schedule-block {
+      .app-block .small-block-wrapper .small-block {
+        padding: 0.5em 0; } }
+
+.schedule-block {
   padding: 6em 0; }
   @media only screen and (max-width: 767px) {
-    .page-florence .schedule-block {
+    .schedule-block {
       padding: 2em 0 2em 0; } }
-  .page-florence .schedule-block .title {
+  .schedule-block .title {
     color: white;
     font-weight: normal;
     margin: 0;
     text-align: center; }
-  .page-florence .schedule-block .day-title {
+  .schedule-block .day-title {
     color: white;
     font-size: 1.5em;
     font-weight: normal;
     line-height: 1.25em;
     margin: 2em 0 0 0; }
     @media only screen and (max-width: 767px) {
-      .page-florence .schedule-block .day-title {
+      .schedule-block .day-title {
         font-size: 1.125em; } }
-  .page-florence .schedule-block .event {
+  .schedule-block .event {
     margin: 2em 0 0 0; }
-    .page-florence .schedule-block .event .event-title {
+    .schedule-block .event .event-title {
       color: white; }
-    .page-florence .schedule-block .event .event-text {
+    .schedule-block .event .event-text {
       font-weight: bold; }
-    .page-florence .schedule-block .event .event-description {
-      font-style: italic; }
-.page-florence .about-block {
+  .schedule-block .schedule-event {
+    background: white;
+    margin-top: 1em;
+    padding: 1.5em 2em; }
+    .schedule-block .schedule-event .schedule-event-title {
+      color: #00aeef; }
+
+.about-block {
   background: white;
   border-bottom: 2px solid #e8e8e8; }
-.page-florence .hiw-block {
+
+.hiw-block {
   background: white; }
-.page-florence .about-block,
-.page-florence .hiw-block {
+
+.about-block,
+.hiw-block {
   padding-bottom: 90px; }
   @media only screen and (max-width: 767px) {
-    .page-florence .about-block,
-    .page-florence .hiw-block {
+    .about-block,
+    .hiw-block {
       padding-bottom: 50px; } }
-  .page-florence .about-block .title,
-  .page-florence .hiw-block .title {
+  .about-block .title,
+  .hiw-block .title {
     font-weight: normal;
     margin-bottom: 0;
     margin-top: 60px;
     text-align: center; }
     @media only screen and (max-width: 767px) {
-      .page-florence .about-block .title,
-      .page-florence .hiw-block .title {
+      .about-block .title,
+      .hiw-block .title {
         margin-top: 30px; } }
-  .page-florence .about-block .image,
-  .page-florence .hiw-block .image {
+  .about-block .image,
+  .hiw-block .image {
     background-position: 50% 0;
     background-repeat: no-repeat;
     height: 120px;
     margin-top: 30px;
     width: 100%; }
     @media only screen and (max-width: 767px) {
-      .page-florence .about-block .image,
-      .page-florence .hiw-block .image {
+      .about-block .image,
+      .hiw-block .image {
         margin-top: 20px; } }
-    .page-florence .about-block .image.image-audio-guide,
-    .page-florence .hiw-block .image.image-audio-guide {
+    .about-block .image.image-audio-guide,
+    .hiw-block .image.image-audio-guide {
       background-image: url("../images/audio_guide.png"); }
-    .page-florence .about-block .image.image-cms,
-    .page-florence .hiw-block .image.image-cms {
+    .about-block .image.image-cms,
+    .hiw-block .image.image-cms {
       background-image: url("../images/cms.png"); }
-    .page-florence .about-block .image.image-opas,
-    .page-florence .hiw-block .image.image-opas {
+    .about-block .image.image-opas,
+    .hiw-block .image.image-opas {
       background-image: url("../images/opas.png"); }
-  .page-florence .about-block .image2,
-  .page-florence .hiw-block .image2 {
+  .about-block .image2,
+  .hiw-block .image2 {
     background-position: 50% 0;
     background-repeat: no-repeat;
     height: 100px;
     margin-top: 30px;
     width: 100%; }
     @media only screen and (max-width: 767px) {
-      .page-florence .about-block .image2,
-      .page-florence .hiw-block .image2 {
+      .about-block .image2,
+      .hiw-block .image2 {
         margin-top: 20px; } }
-    .page-florence .about-block .image2.image-record,
-    .page-florence .hiw-block .image2.image-record {
+    .about-block .image2.image-record,
+    .hiw-block .image2.image-record {
       background-image: url("../images/record.png"); }
-    .page-florence .about-block .image2.image-publish,
-    .page-florence .hiw-block .image2.image-publish {
+    .about-block .image2.image-publish,
+    .hiw-block .image2.image-publish {
       background-image: url("../images/publish.png"); }
-    .page-florence .about-block .image2.image-announce,
-    .page-florence .hiw-block .image2.image-announce {
+    .about-block .image2.image-announce,
+    .hiw-block .image2.image-announce {
       background-image: url("../images/announce.png"); }
-  .page-florence .about-block .small-title,
-  .page-florence .hiw-block .small-title {
+  .about-block .small-title,
+  .hiw-block .small-title {
     color: #00aeef;
     font-size: 1.5em;
     font-weight: normal;
@@ -5081,24 +5057,29 @@ body {
     margin-bottom: 25px;
     margin-top: 15px;
     text-align: center; }
-  .page-florence .about-block .text,
-  .page-florence .hiw-block .text {
+  .about-block .text,
+  .hiw-block .text {
     font-size: 16px;
     line-height: 1.9em;
     padding: 0 10px; }
-.page-florence .footer-block .title {
+    @media only screen and (max-width: 767px) {
+      .about-block .text,
+      .hiw-block .text {
+        padding: 0; } }
+
+.footer-block .title {
   color: white;
   margin-top: 60px;
   margin-bottom: 80px;
   text-align: center; }
   @media only screen and (max-width: 767px) {
-    .page-florence .footer-block .title {
+    .footer-block .title {
       margin-top: 30px;
       margin-bottom: 40px; } }
-  .page-florence .footer-block .title .bold {
+  .footer-block .title .bold {
     font-weight: normal; }
-  .page-florence .footer-block .title a {
+  .footer-block .title a {
     color: white;
     text-decoration: none; }
-    .page-florence .footer-block .title a:hover {
+    .footer-block .title a:hover {
       text-decoration: underline; }
