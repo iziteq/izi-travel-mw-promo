@@ -137,6 +137,9 @@ body
     height: (1.25em * 3)
     margin-top: 160px
 
+    @media (max-width: 980px)
+      text-align: center
+
     @media #{$small-only}
       $lineHeight: 1.3em
       height: ($lineHeight * 3)
@@ -310,7 +313,7 @@ body
   .schedule-event
     background: #fff
     margin-top: 1em
-    padding: 1.5em 2em
+    padding: 1.5em 1.5em
 
     .schedule-event-title
       @extend %medium-font

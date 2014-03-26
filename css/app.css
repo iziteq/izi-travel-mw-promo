@@ -4844,6 +4844,9 @@ body {
     font-weight: bold;
     height: 3.75em;
     margin-top: 160px; }
+    @media (max-width: 980px) {
+      .header-block .title {
+        text-align: center; } }
     @media only screen and (max-width: 767px) {
       .header-block .title {
         height: 3.9em;
@@ -4980,7 +4983,7 @@ body {
   .schedule-block .schedule-event {
     background: white;
     margin-top: 1em;
-    padding: 1.5em 2em; }
+    padding: 1.5em 1.5em; }
     .schedule-block .schedule-event .schedule-event-title {
       color: #00aeef; }
 
